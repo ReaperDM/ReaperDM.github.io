@@ -1,0 +1,759 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Reaper - Diseño y desarrollo web. Creamos páginas web, catálogos digitales y tiendas online para negocios y empresas.">
+
+    <meta name="theme-color" content="#0B0E14">
+
+    <title>Reaper | Diseño y Desarrollo Web</title>
+
+    <!-- Tipografía -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Icono de la página -->
+    <link rel="icon" href="img/reaper-icon.png" type="image/png">
+</head>
+
+<body>
+
+    <!-- ================================= -->
+    <!-- ENCABEZADO -->
+    <!-- ================================= -->
+
+    <header class="header">
+
+        <div class="container header-container">
+
+            <a href="#inicio" class="logo" aria-label="Reaper - Inicio">
+    <img
+        src="img/reaper-logo.png"
+        alt="Reaper - Diseño y Desarrollo Web"
+    >
+</a>
+
+            <nav class="nav" id="nav">
+
+                <a href="#inicio" class="nav-link active">Inicio</a>
+
+                <a href="#servicios" class="nav-link">Servicios</a>
+
+                <a href="#proyectos" class="nav-link">Proyectos</a>
+
+                <a href="#nosotros" class="nav-link">Sobre mí</a>
+
+                <a href="#contacto" class="nav-link nav-contacto">
+                    Contacto
+                </a>
+
+            </nav>
+
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- ================================= -->
+        <!-- INICIO / HERO -->
+        <!-- ================================= -->
+
+        <section class="hero" id="inicio">
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-tag">
+                        <span class="status-dot"></span>
+                        DISEÑO Y DESARROLLO WEB
+                    </span>
+
+                    <h1>
+                        Tu negocio merece
+                        <span>una presencia digital</span>
+                        a la altura.
+                    </h1>
+
+                    <p class="hero-description">
+                        Desarrollo sitios web modernos, funcionales y
+                        personalizados para negocios que buscan crecer,
+                        destacarse y llegar a más clientes.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#proyectos" class="btn btn-primary">
+                            Ver proyectos
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contacto" class="btn btn-secondary">
+                            Contactarme
+                        </a>
+
+                    </div>
+
+                    <div class="hero-technologies">
+
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Supabase</span>
+
+                    </div>
+
+                </div>
+
+                <div class="hero-visual">
+
+                    <div class="visual-glow"></div>
+
+                    <div class="code-card">
+
+                        <div class="code-header">
+
+                            <div class="code-dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <span>Reaper.dev</span>
+
+                        </div>
+
+                        <div class="code-content">
+
+                            <p><span class="code-purple">const</span> proyecto = {</p>
+
+                            <p class="code-indent">
+                                nombre: <span class="code-green">"Reaper"</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                enfoque: <span class="code-green">"Desarrollo web"</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                calidad: <span class="code-green">"Profesional"</span>,
+                            </p>
+
+                            <p class="code-indent">
+                                creatividad: <span class="code-purple">true</span>
+                            </p>
+
+                            <p>};</p>
+
+                            <br>
+
+                            <p>
+                                <span class="code-purple">function</span>
+                                <span class="code-blue">crearProyecto</span>() {
+                            </p>
+
+                            <p class="code-indent code-green">
+                                return "Tu próxima web";
+                            </p>
+
+                            <p>}</p>
+
+                            <br>
+
+                            <p class="code-comment">
+                                // Transformamos ideas en soluciones digitales.
+                            </p>
+
+                        </div>
+
+                        <div class="code-footer">
+
+                            <span>
+                                <i class="fa-solid fa-circle-check"></i>
+                                Sistema listo
+                            </span>
+
+                            <span>Reaper © 2026</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="#servicios" class="scroll-indicator">
+                <i class="fa-solid fa-chevron-down"></i>
+            </a>
+
+        </section>
+
+
+        
+<!-- ================================= -->
+<!-- SERVICIOS -->
+<!-- ================================= -->
+
+<section class="services section" id="servicios">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">QUÉ HAGO</span>
+
+            <h2>
+                Soluciones digitales
+                <span>para tu negocio.</span>
+            </h2>
+
+            <p>
+                Cada proyecto tiene necesidades diferentes.
+                Desarrollo soluciones adaptadas a tus objetivos.
+            </p>
+
+        </div>
+
+        <div class="services-grid">
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-window-maximize"></i>
+                </div>
+
+                <h3>Landing Pages</h3>
+
+                <p>
+                    Páginas diseñadas para presentar tus servicios,
+                    destacar tu negocio y conseguir nuevos clientes.
+                </p>
+
+                <div class="service-features">
+                    <span>Diseño personalizado</span>
+                    <span>Secciones estratégicas</span>
+                    <span>Contacto directo</span>
+                </div>
+
+            </article>
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+
+                <h3>Web Institucionales</h3>
+
+                <p>
+                    Sitios profesionales para empresas, comercios
+                    y profesionales que quieren fortalecer su presencia online.
+                </p>
+
+                <div class="service-features">
+                    <span>Presentación empresarial</span>
+                    <span>Información y servicios</span>
+                    <span>Datos de contacto</span>
+                </div>
+
+            </article>
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </div>
+
+                <h3>Tiendas Online</h3>
+
+                <p>
+                    Catálogos, carritos de compra y herramientas
+                    para administrar productos y pedidos.
+                </p>
+
+                <div class="service-features">
+                    <span>Catálogo dinámico</span>
+                    <span>Carrito de compras</span>
+                    <span>Panel administrativo</span>
+                </div>
+
+            </article>
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <h3>Sistemas a medida</h3>
+
+                <p>
+                    Soluciones digitales con bases de datos,
+                    paneles administrativos y funcionalidades personalizadas.
+                </p>
+
+                <div class="service-features">
+                    <span>Bases de datos</span>
+                    <span>Gestión de información</span>
+                    <span>Funciones personalizadas</span>
+                </div>
+
+            </article>
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                </div>
+
+                <h3>Diseño Responsive</h3>
+
+                <p>
+                    Sitios adaptados a celulares, tablets y computadoras
+                    para brindar una buena experiencia en cualquier dispositivo.
+                </p>
+
+                <div class="service-features">
+                    <span>Diseño adaptable</span>
+                    <span>Navegación optimizada</span>
+                    <span>Distintos dispositivos</span>
+                </div>
+
+            </article>
+
+            <article class="service-card">
+
+                <div class="service-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </div>
+
+                <h3>Mantenimiento Web</h3>
+
+                <p>
+                    Actualizaciones, mejoras y asistencia técnica
+                    para mantener tu sitio funcionando correctamente.
+                </p>
+
+                <div class="service-features">
+                    <span>Actualizaciones</span>
+                    <span>Corrección de errores</span>
+                    <span>Mejoras y soporte</span>
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<!-- ================================= -->
+<!-- POR QUÉ ELEGIR REAPER -->
+<!-- ================================= -->
+
+<section class="why-us section" id="porque-elegirnos">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">POR QUÉ REAPER</span>
+
+            <h2>
+                Más que una página web,
+                <span>una solución para tu negocio.</span>
+            </h2>
+
+            <p>
+                Cada proyecto se desarrolla pensando en las necesidades
+                de tu negocio y en las personas que van a utilizarlo.
+            </p>
+
+        </div>
+
+        <div class="why-us-grid">
+
+            <article class="why-card">
+
+                <div class="why-icon">
+                    <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </div>
+
+                <h3>Diseño personalizado</h3>
+
+                <p>
+                    Cada sitio tiene una identidad propia.
+                    Diseño páginas adaptadas a tu marca, tus objetivos
+                    y las necesidades de tu negocio.
+                </p>
+
+            </article>
+
+            <article class="why-card">
+
+                <div class="why-icon">
+                    <i class="fa-solid fa-mobile-screen"></i>
+                </div>
+
+                <h3>Adaptabilidad total</h3>
+
+                <p>
+                    Tu página se verá y funcionará correctamente
+                    en celulares, tablets y computadoras,
+                    sin importar desde dónde ingresen tus clientes.
+                </p>
+
+            </article>
+
+            <article class="why-card">
+
+                <div class="why-icon">
+                    <i class="fa-solid fa-comments"></i>
+                </div>
+
+                <h3>Atención directa</h3>
+
+                <p>
+                    Trabajás directamente conmigo durante el desarrollo,
+                    con comunicación clara y soluciones pensadas
+                    para lo que realmente necesitás.
+                </p>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+        <!-- ================================= -->
+        <!-- PROYECTOS -->
+        <!-- ================================= -->
+
+        <section class="projects section" id="proyectos">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-tag">PORTFOLIO</span>
+
+                    <h2>
+                        Proyectos que
+                        <span>cobran vida.</span>
+                    </h2>
+
+                    <p>
+                        Algunos de los trabajos y soluciones desarrollados.
+                    </p>
+
+                </div>
+
+                
+<a href="https://meltbeauty.netlify.app/"
+   target="_blank"
+   rel="noopener noreferrer"
+   class="project-card">
+
+    <div class="project-image">
+
+        <img
+            src="img/melt-beauty.png"
+            alt="Vista previa de la tienda online Melt Beauty desarrollada por Reaper"
+        >
+
+    </div>
+
+    <div class="project-info">
+
+        <span class="project-category">
+            E-COMMERCE · TIENDA ONLINE
+        </span>
+
+        <span class="project-status">
+            <i class="fa-solid fa-circle-check"></i>
+            Proyecto publicado
+        </span>
+
+        <h3>Melt Beauty</h3>
+
+        <p>
+            Desarrollo de una tienda online de maquillaje
+            con catálogo dinámico, filtros, carrito de compras,
+            pedidos por WhatsApp y panel privado de administración.
+        </p>
+
+        <div class="project-tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Supabase</span>
+        </div>
+
+        <span class="project-link">
+            Visitar proyecto
+            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </span>
+
+    </div>
+
+</a>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- ================================= -->
+        <!-- SOBRE MÍ -->
+        <!-- ================================= -->
+
+        <section class="about section" id="nosotros">
+
+            <div class="container about-container">
+
+                <div class="about-content">
+
+                    <span class="section-tag">SOBRE Reaper</span>
+
+                    <h2>
+                        Tecnología,
+                        <span>creatividad y soluciones.</span>
+                    </h2>
+
+                    <p>
+                        Soy Marcelo, desarrollador web independiente
+                        detrás de Reaper.
+                    </p>
+
+                    <p>
+                        Me dedico a crear sitios web y herramientas digitales
+                        que ayudan a los negocios a mejorar su presencia online,
+                        organizar sus productos y conectar con sus clientes.
+                    </p>
+
+                    <p>
+                        Trabajo en cada proyecto buscando combinar diseño,
+                        funcionalidad y una experiencia sencilla para el usuario.
+                    </p>
+
+                </div>
+
+                <div class="about-highlight">
+
+                    <i class="fa-solid fa-code"></i>
+
+                    <h3>Desarrollo pensado para cada negocio.</h3>
+
+                    <p>
+                        No se trata solamente de tener una página web,
+                        sino de contar con una herramienta que aporte valor.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+<!-- ================================= -->
+<!-- PREGUNTAS FRECUENTES -->
+<!-- ================================= -->
+
+<section class="faq section" id="preguntas-frecuentes">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <span class="section-tag">PREGUNTAS FRECUENTES</span>
+
+            <h2>
+                ¿Tenés alguna
+                <span>consulta?</span>
+            </h2>
+
+            <p>
+                Algunas respuestas que pueden ayudarte a conocer
+                mejor cómo trabajo.
+            </p>
+
+        </div>
+
+        <div class="faq-container">
+
+            <details class="faq-item">
+                <summary>¿Cuánto cuesta desarrollar una página web?</summary>
+                <p>
+                    El presupuesto depende del tipo de sitio, sus funcionalidades
+                    y la complejidad del proyecto. Cada propuesta se prepara
+                    teniendo en cuenta las necesidades de tu negocio.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Cuánto tiempo lleva desarrollar un sitio web?</summary>
+                <p>
+                    Depende del alcance del proyecto, la cantidad de secciones
+                    y las funcionalidades necesarias. Antes de comenzar,
+                    definimos los tiempos estimados de entrega.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Mi página web se verá bien en celulares?</summary>
+                <p>
+                    Sí. Los sitios se desarrollan con diseño responsive
+                    para adaptarse a celulares, tablets y computadoras.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿Puedo solicitar modificaciones después de la entrega?</summary>
+                <p>
+                    Sí. Se pueden solicitar cambios y mejoras después
+                    de la publicación. Según el tipo de modificación,
+                    se puede coordinar un presupuesto adicional.
+                </p>
+            </details>
+
+            <details class="faq-item">
+                <summary>¿El desarrollo incluye dominio y hosting?</summary>
+                <p>
+                    El dominio y el alojamiento se definen según las necesidades
+                    de cada proyecto. Se informa qué servicios se necesitan
+                    y sus posibles costos antes de comenzar.
+                </p>
+            </details>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+        <!-- ================================= -->
+        <!-- CONTACTO -->
+        <!-- ================================= -->
+
+        <section class="contact section" id="contacto">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <span class="section-tag">CONTACTO</span>
+
+                    <h2>
+                        ¿Tenés un proyecto
+                        <span>en mente?</span>
+                    </h2>
+
+                    <p>
+                        Contame qué necesitás y trabajemos juntos
+                        para convertir tu idea en una solución digital.
+                    </p>
+
+                    <div class="contact-buttons">
+
+                        
+
+<a href="https://wa.me/5493489664066?text=Hola%2C%20vi%20tu%20p%C3%A1gina%20web%20y%20me%20gustar%C3%ADa%20consultar%20por%20el%20desarrollo%20de%20un%20sitio%20web%20para%20mi%20negocio."
+   target="_blank"
+   rel="noopener noreferrer"
+   class="btn btn-primary">
+
+    <i class="fa-brands fa-whatsapp"></i>
+    Contactar por WhatsApp
+
+</a>
+
+
+
+                        <a href="mailto:Rivasmarcelo2024@gmail.com"
+                           class="btn btn-secondary">
+
+                            <i class="fa-solid fa-envelope"></i>
+                            Enviar correo
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================================= -->
+    <!-- FOOTER -->
+    <!-- ================================= -->
+
+   
+<!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
+
+<footer class="footer">
+
+    <div class="container footer-container">
+
+        <a  class="logo" aria-label="Reaper - Inicio">
+            <img
+                src="img/reaper-logo.png"
+                alt="Reaper - Diseño y Desarrollo Web"
+            >
+        </a>
+
+        <p>
+            Diseño y Desarrollo Web · Marcelo
+        </p>
+
+        <span>
+            © 2026 Reaper. Todos los derechos reservados.
+        </span>
+
+    </div>
+
+</footer>
+
+
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
